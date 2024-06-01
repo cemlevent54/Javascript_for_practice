@@ -1,0 +1,40 @@
+#myh1 {
+    color: blue;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+
+#lblOutput {
+    display: flex;            /* Makes the element a flex container */
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;      /* Centers content vertically */
+    font-size: 120px;         /* Keeps your original font size setting */
+    height: 100px;            /* Set an appropriate height */
+    width: 100%;              /* Full width to ensure it's centered relative to its container */
+    text-align: center;       /* Ensures the text itself is also centered if the content wraps */
+    margin-bottom: 30px;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    font-size: large;
+    margin-right: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+
+}
+
+.buttons:hover {
+    background-color: gray;
+}
+
