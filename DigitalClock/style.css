@@ -1,0 +1,42 @@
+h1 {
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+}
+
+body {
+    background-image: url('x.jpg');
+    background-size: cover;
+    font-family: "Orbitron", sans-serif;
+    display: flex; /* Flexbox düzeni */
+    flex-direction: column; /* Dikey hizalama */
+    justify-content: center; /* Dikeyde ortalama */
+    align-items: center; /* Yatayda ortalama */
+    height: 100vh; /* Yüksekliği tam ekran */
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Yazı tipi */
+}
+
+.hourdiv {
+    font-family: "Orbitron", sans-serif;
+    display: block;
+    text-align: center;
+    border: 3px solid green;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 50px;
+}
+
+.datediv {
+    font-size: 150px;
+    font-family: "Orbitron", sans-serif;
+    display: block;
+    text-align: center;
+    border: 3px solid green;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 50px;
+}
