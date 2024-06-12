@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+}
+
+.myslider {
+    background-color: green;
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    padding-top: 50px;
+    border: 5px solid black;
+    margin: 0 auto; /* Merkeze yerleştirmek için */
+}
+
+.main {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around; /* Öğeler arasında eşit boşluk bırakmak için */
+    align-items: center; /* Öğeleri dikey ortalamak için */
+    width: 100%;
+    max-width: 600px; /* Konteynerin genişliğini ayarlamak için */
+    margin: 0 auto; /* Main konteynerini ortalamak için */
+    flex-wrap: wrap; /* Öğelerin kaybolmamasını sağlamak için wrap kullanıyoruz */
+}
+
+.btn {
+    width: 30px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    margin: 10px; /* Butonlar arasında biraz boşluk bırakmak için */
+}
+
+.image-box {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto; /* Merkeze yerleştirmek için */
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Küçük ekranlar için stil */
+@media (max-width: 600px) {
+    .btn {
+        width: 100%;
+        height: auto;
+        font-size: large;
+    }
+
+    .image-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .myslider {
+        width: 100%;
+        height: auto;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Öğeler arasında eşit boşluk bırakmak için */
+    align-items: center;/*  Öğeleri dikey ortalamak için */;
+    width: 100%; /*Konteynerin genişliğini ayarlamak için */
+}
+
+.box {
+    display:flex;
+    background-color: blue;
+    font-size: 9em;
+    border: 5px solid black;
+    border-radius: 250px;
+}
+
+.game {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.lblsonuc {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.box:hover {
+    background-color: white;
+}
+
