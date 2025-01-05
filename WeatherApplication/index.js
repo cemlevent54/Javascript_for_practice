@@ -1,7 +1,7 @@
 const txtBoxCity = document.getElementById("txtBoxCity");
 const btnWeather = document.getElementById("btnWeather");
 const lblOutput = document.getElementById("lbloutput");
-const apiKey = 'my-api-key'; 
+const apiKey = 'your-api-key-from-weatherapi.com'; 
 
 
 btnWeather.addEventListener('click', getWeather);

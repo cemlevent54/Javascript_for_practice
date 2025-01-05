@@ -5,7 +5,7 @@ function updateDisplay() {
 }
 
 document.getElementById("btndecrease").onclick = function() {
-    num = num - 1;
+    if (num > 0) num = num - 1;
     updateDisplay();
 }
 
